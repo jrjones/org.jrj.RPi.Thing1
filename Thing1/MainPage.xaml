@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="org.jrj.RPi.Thing1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:org.jrj.RPi.Thing1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+        <Image x:Name="image" HorizontalAlignment="Center" Height="145" Margin="331,237,1444,698" VerticalAlignment="Center" Width="145" Source="Assets/jrjtoonhead.png"/>
+        <Ellipse x:Name="LED_R" Fill="#FF585858" Stroke="#FF343434" Margin="591,406,1154,499" Height="175" Width="175" />
+        <Button x:Name="ButtonLEDRed" Content="Red LED" HorizontalAlignment="Left" Margin="509,237,0,0" VerticalAlignment="Top" Foreground="White" Background="#33FF0000" BorderBrush="White" Height="140" Width="315" Click="ButtonLEDRed_Click"/>
+        <Button x:Name="ButtonLEDGreen" Content="Green LED" HorizontalAlignment="Left" Margin="850,237,0,0" VerticalAlignment="Top" Foreground="White" Background="#331FFF00" BorderBrush="White" Height="140" Width="315" Click="ButtonLEDGreen_Click"/>
+        <Ellipse x:Name="LED_G" Fill="#FF555555" Stroke="#FF343434" Margin="920,406,825,499" Height="175" Width="175" />
+        <Button x:Name="ButtonLEDBlue" Content="Blue LED" HorizontalAlignment="Left" Margin="1187,237,0,0" VerticalAlignment="Top" Foreground="White" Background="#33001FFF" BorderBrush="White" Height="140" Width="315" Click="ButtonLEDBlue_Click"/>
+        <Ellipse x:Name="LED_B" Fill="#FF555555" Stroke="#FF343434" Margin="1260,406,485,499" Height="175" Width="175" />
+    </Grid>
+</Page>
