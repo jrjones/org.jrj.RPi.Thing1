@@ -8,6 +8,7 @@ The initial project is to create some classes for controlling LED bulbs.
 
 The 'LedBulb' class is a basic LED bulb-- you specify the pin that it's connected to, and you can use methods to turn the bulb on and off, etc.
 
+            RedBulb = new LedBulb();
             RedBulb.Color = Colors.Red;
             RedBulb.PinNumber = 5;
             RedBulb.Initialize();
