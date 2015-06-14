@@ -26,7 +26,7 @@ namespace org.jrj.RPi.Thing1
             this.pinValue = GpioPinValue.Low;
             this.pin.Write(pinValue);
             this.pin.SetDriveMode(GpioPinDriveMode.Output);
-            this.ison = true;
+            this.ison = false;
 
             return;
         }
