@@ -122,4 +122,6 @@ namespace org.jrj.RPi.Thing1
         }
         private int pinNumber;
     }
+
+    //TODO add event handler for change
 }
