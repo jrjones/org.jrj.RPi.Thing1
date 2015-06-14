@@ -2,7 +2,7 @@
 
 This is a playground for experimenting with the Raspberry Pi + Windows 10 IoT. 
 
-# Phase 1: Basic LEDs
+## Phase 1: Basic LEDs
 
 The initial project is to create some classes for controlling LED bulbs. 
 
